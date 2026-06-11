@@ -10,12 +10,8 @@ This project explores how California's lockdown affected concentrations of five 
 
 ---
 
-## Data
-
-<<<<<<< HEAD
-=======
 ### **Data**
->>>>>>> 60e12aaf9fe0362eef387d132ce9a83162f3fb5b
+
 The data used in this analysis is as follows:
 
 1. [Outdoor Ari Quality Data - U.S. Environmental Protection Agency](https://www.epa.gov/outdoor-air-quality-data/download-daily-data)
