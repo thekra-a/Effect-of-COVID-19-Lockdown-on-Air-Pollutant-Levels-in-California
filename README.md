@@ -1,16 +1,15 @@
-# Effect of COVID-19 Lockdown on Air Pollutant Levels in California
+## Effect of COVID-19 Lockdown on Air Pollutant Levels in California
 
 
 
-### **Introduction**
+## **Introduction**
 
 The COVID-19 pandemic prompted an unprecedented societal response. On **March 19, 2020**, California became the first U.S. state to issue a mandatory stay-at-home order, signifucantly reducing traffic, industrial and human activity. This created a rare natural experiment: the opportunity to isolate and measure the short-term effect of reduced human activity on air quality and whether intentional lockdown policies will have a positive effect in controling greenhouse gas emmissions.
 
 This project explores how California's lockdown affected concentrations of five key air pollutants — **CO, NO₂, O₃, PM₂.₅, and PM₁₀** — using 2019 as a pre-pandemic baseline for year-over-year comparison.
 
----
 
-### **Data**
+## **Data**
 
 The data used in this analysis is as follows:
 
@@ -19,12 +18,9 @@ The data used in this analysis is as follows:
 
 Complete data dictionary can be found at 'data' folder in this reposiroty.
 
----
 
-## Tech Stack
+### Tech Stack
 
-| Category | Tools |
-|---|---|
 | **Language** | Python |
 | **Data manipulation** | `pandas`, `numpy` |
 | **Visualisation** | `matplotlib`, `seaborn` |
@@ -32,9 +28,8 @@ Complete data dictionary can be found at 'data' folder in this reposiroty.
 | **Environment** | Jupyter , VS Code |
 | **Version control** | Git, GitHub |
 
----
 
-## Method
+### Method
 
 ### Analytical Approach
 
@@ -54,32 +49,32 @@ Monthly mean concentrations were calculated for each pollutant. The lockdown per
 
 Primary traffic-related pollutants (NO₂, CO) were expected to respond readily to lockdown. PM.25 and PM10 results were examined separately due to their unusual rise late 2020.
 
----
 
 ## Results
 
 *See full data wrangling and EDA conducted in the Jupyter Notebook. Interactive results available at the project HTML page.*
 
-### Figure 1 — month-by-month pollutant comparison: 2019 vs. 2020 vs. 2021
+### Figure 1. Month-by-month pollutant comparison: 2019 vs. 2020 vs. 2021
 
 
 
-Statewide monthly averages across all five pollutants reveal consistent year-over-year patterns for CO, NO₂, and O₃, with 2020 values dip slightly below 2019 during the lockdown period. The clearest divergence appears in PM₁₀ and PM₂.₅, where 2020 and 2021 both spike sharply above 2019 levels from August onward consistent with the record 2020 wildfire season and its lingering particulate impact into 2021.
+Monthly averages across all five pollutants and counties revealed consistent year-over-year patterns for CO, NO₂, and O₃, with 2020 values dip slightly below 2019 during the lockdown period. The clearest divergence appears in PM₁₀ and PM₂.₅, where 2020 and 2021 both spike sharply above 2019 levels from August onward consistent with the record 2020 wildfire season and its lingering particulate impact into 2021.
 
----
 
-### Figure 2 — Counties with the most significant air pollution reduction during lockdown (March 19 – June 15 2020 vs. 2019)
+
+### Figure 2. Counties with the most significant air pollution reduction during lockdown (March 19 – June 15 2020 vs. 2019)
 
 
 
 Comparing each county's average pollutant concentration during the lockdown period against the same period in 2019 isolates changes related to seasonal variation. Trinity showed the largest overall reduction (average −37.7% across all pollutants), followed by Mono (−27.2%) and Mariposa (−27.1%). All 15 counties shown recorded net reductions, with steeper drops generally observed in rural counties.
 
----
 
-### Figure 3 — Monthly Average Air Pollutant Concentrations: Humboldt vs. Trinity (2019–2021)
+
+### Figure 3. Monthly Average Air Pollutant Concentrations: Humboldt vs. Trinity (2019–2021)
 
 
 Trinity's 2020 pollutant levels exceed both 2019 and 2021 across PM₂.₅ and PM₁₀ despite the lockdown, with post-lockdown PM₁₀ and PM₂.₅ spiking to 42.9 and 17.5 µg/m³, respectively. This is inconsistent with reduced human activity as the sole driver and is more likely attributable to wildfire smoke given Trinity's predominantly wilderness geography. Humboldt, which borders Trinity to the west, shows a similar PM pattern — PM₁₀ and PM₂.₅ remained elevated into 2021 — suggesting smoke spillover across county lines. For CO, NO₂, and O₃, both counties returned closer to 2019 levels by 2021.---
+
 
 ## Discussion
 
@@ -87,13 +82,11 @@ Trinity is one of California's least populated counties, with a total population
 
 However, Trinity's 2020 air pollutant levels surpass that of 2019 and 2021, specifically PM25 and PM10 levels, despite lockdown. PM10 and PM2.5 levels spiked to 42.934 and 17.526 µg/m³ post-lockdown, respectively. This significant increrase is unlikely due to just human activity returning to normal and more likely linked to the record-breaking California wildfire season in late 2020, given that Trinity is mostly wildreness. 
 
----
 
 ## Limitations
 
 PM25 was consistently recorded in Trinity in comparison to other counties; this might have skewed the results. Suggestion for reproducing this analysis is to set a threshold for which counties are to be included (e.g. a minimum of 3 or 4 or 5 air pollutant recorded.)
 
----
 
 ## References
 
