@@ -2,7 +2,7 @@
 
 
 
-## Introduction
+### **Introduction**
 
 The COVID-19 pandemic prompted an unprecedented societal response. On **March 19, 2020**, California became the first U.S. state to issue a mandatory stay-at-home order, signifucantly reducing traffic, industrial and human activity. This created a rare natural experiment: the opportunity to isolate and measure the short-term effect of reduced human activity on air quality and whether intentional lockdown policies will have a positive effect in controling greenhouse gas emmissions.
 
