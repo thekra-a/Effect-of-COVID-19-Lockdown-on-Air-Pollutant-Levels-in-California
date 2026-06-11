@@ -1,3 +1,4 @@
+
 ## Effect of COVID-19 Lockdown on Air Pollutant Levels in California
 
 
@@ -56,6 +57,7 @@ Primary traffic-related pollutants (NO₂, CO) were expected to respond readily 
 
 ### Figure 1. Month-by-month pollutant comparison: 2019 vs. 2020 vs. 2021
 
+<img width="2385" height="1330" alt="fig1_pollutant_comparison" src="https://github.com/user-attachments/assets/863fb858-e7fa-4386-8d7a-b1f36326a819" />
 
 
 Monthly averages across all five pollutants and counties revealed consistent year-over-year patterns for CO, NO₂, and O₃, with 2020 values dip slightly below 2019 during the lockdown period. The clearest divergence appears in PM₁₀ and PM₂.₅, where 2020 and 2021 both spike sharply above 2019 levels from August onward consistent with the record 2020 wildfire season and its lingering particulate impact into 2021.
@@ -64,13 +66,15 @@ Monthly averages across all five pollutants and counties revealed consistent yea
 
 ### Figure 2. Counties with the most significant air pollution reduction during lockdown (March 19 – June 15 2020 vs. 2019)
 
-
+<img width="1484" height="1027" alt="fig2_county_reduction" src="https://github.com/user-attachments/assets/f77bf6cd-663b-4fb9-8ba5-b1e277733aee" />
 
 Comparing each county's average pollutant concentration during the lockdown period against the same period in 2019 isolates changes related to seasonal variation. Trinity showed the largest overall reduction (average −37.7% across all pollutants), followed by Mono (−27.2%) and Mariposa (−27.1%). All 15 counties shown recorded net reductions, with steeper drops generally observed in rural counties.
 
 
 
 ### Figure 3. Monthly Average Air Pollutant Concentrations: Humboldt vs. Trinity (2019–2021)
+
+<img width="1200" height="1500" alt="fig3_humboldt_trinity" src="https://github.com/user-attachments/assets/3eb9f6e2-2e26-4a75-95ba-8895b3fd7055" />
 
 
 Trinity's 2020 pollutant levels exceed both 2019 and 2021 across PM₂.₅ and PM₁₀ despite the lockdown, with post-lockdown PM₁₀ and PM₂.₅ spiking to 42.9 and 17.5 µg/m³, respectively. This is inconsistent with reduced human activity as the sole driver and is more likely attributable to wildfire smoke given Trinity's predominantly wilderness geography. Humboldt, which borders Trinity to the west, shows a similar PM pattern — PM₁₀ and PM₂.₅ remained elevated into 2021 — suggesting smoke spillover across county lines. For CO, NO₂, and O₃, both counties returned closer to 2019 levels by 2021.---
