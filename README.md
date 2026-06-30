@@ -68,7 +68,7 @@ Monthly averages across all five pollutants and counties revealed consistent yea
 
 <img width="1484" height="1027" alt="fig2_county_reduction" src="https://github.com/user-attachments/assets/f77bf6cd-663b-4fb9-8ba5-b1e277733aee" />
 
-Comparing each county's average pollutant concentration during the lockdown period against the same period in 2019 isolates changes related to seasonal variation. Trinity showed the largest overall reduction (average −37.7% across all pollutants), followed by Mono (−27.2%) and Mariposa (−27.1%). All 15 counties shown recorded net reductions, with steeper drops generally observed in rural counties.
+Comparing each county's average pollutant concentration during the lockdown period against the same period in 2019 isolates changes related to seasonal variation. **Trinity** showed the largest overall reduction (average -37.7% across all pollutants), followed by Mono (-27.2%) and Mariposa (-27.1%). All 15 counties shown above recorded net reductions, with greater drops generally observed in rural counties.
 
 
 
@@ -77,19 +77,19 @@ Comparing each county's average pollutant concentration during the lockdown peri
 <img width="1200" height="1500" alt="fig3_humboldt_trinity" src="https://github.com/user-attachments/assets/3eb9f6e2-2e26-4a75-95ba-8895b3fd7055" />
 
 
-Trinity's 2020 pollutant levels exceed both 2019 and 2021 across PM₂.₅ and PM₁₀ despite the lockdown, with post-lockdown PM₁₀ and PM₂.₅ spiking to 42.9 and 17.5 µg/m³, respectively. This is inconsistent with reduced human activity as the sole driver and is more likely attributable to wildfire smoke given Trinity's predominantly wilderness geography. Humboldt, which borders Trinity to the west, shows a similar PM pattern — PM₁₀ and PM₂.₅ remained elevated into 2021 — suggesting smoke spillover across county lines. For CO, NO₂, and O₃, both counties returned closer to 2019 levels by 2021.---
+Interesting to see that Trinity's 2020 pollutant levels exceed both 2019 and 2021 across PM₂.₅ and PM₁₀ despite the lockdown, with post-lockdown PM₁₀ and PM₂.₅ rising to 42.9 and 17.5 µg/m³, respectively. This is inconsistent with reduced human activity as the sole driver and is more likely attributable to California's largest wildfire season late 2020 given Trinity's predominantly wilderness geography. Humboldt, which borders Trinity to the west, showed a similar suggesting smoke spillover. For CO, NO₂, and O₃, both counties returned closer to 2019 levels by 2021.
 
 
 ## Discussion
 
-Trinity is one of California's least populated counties, with a total population of 16,112 ranking 54th most popultaed county in California. In terms of land size, Trinity covers a total area of 3,208 square miles, of which 3,179 square miles is land and 28 square miles is water, according to the U.S. Census Bureau reports. While Trinity is physically sizeable, it's nearly empty with only 5 people per square mile (one of the emptiest counties in the state), compared to California's overall figure of roughly 250. Thus, it's not entirely surprising to see that the least populated counties see a significant drop in air pollution.
+Trinity is one of California's least populated counties with a total population of 16,112, ranking 54th (of 58 total) most popultaed county in California. In terms of land size, Trinity covers a total area of 3,208 square miles of which 3,179 square miles is land and 28 square miles is water, according to the U.S. Census Bureau reports. While Trinity is physically sizeable, it's nearly empty with only 5 people per square mile (one of the emptiest counties in the state), compared to California's overall figure of roughly 250. Thus, it's not entirely surprising to see that the least populated counties had the most significant improvement in air quality.
 
-However, Trinity's 2020 air pollutant levels surpass that of 2019 and 2021, specifically PM25 and PM10 levels, despite lockdown. PM10 and PM2.5 levels spiked to 42.934 and 17.526 µg/m³ post-lockdown, respectively. This significant increrase is unlikely due to just human activity returning to normal and more likely linked to the record-breaking California wildfire season in late 2020, given that Trinity is mostly wildreness. 
+However, Trinity's 2020 air pollutant levels surpassed that of 2019 and 2021, specifically PM25 and PM10 levels, despite lockdown. PM10 and PM2.5 levels rose to 42.934 and 17.526 µg/m³ post-lockdown, respectively. This significant increrase is unlikely due to just human activity returning to normal and more likely linked to the record-breaking California wildfire season in late 2020, given that Trinity is mostly wildreness. 
 
 
 ## Limitations
 
-PM25 was consistently recorded in Trinity in comparison to other counties; this might have skewed the results. Suggestion for reproducing this analysis is to set a threshold for which counties are to be included (e.g. a minimum of 3 or 4 or 5 air pollutant recorded.)
+PM25 was consistently recorded in Trinity in comparison to other counties. Such imbalance in data collection may restult in skewneess. Suggestion for reproducing this analysis is to set a threshold for which counties are to be included (e.g. a minimum of 4 or 5 air pollutants must be recorded for a county to be included in the analysis.)
 
 
 ## References
