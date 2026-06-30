@@ -5,9 +5,9 @@
 
 ## **Introduction**
 
-COVID-19 pandemic prompted an unprecedented societal response. On **March 19, 2020**, California became the first U.S. state to issue a mandatory stay-at-home order, signifucantly reducing traffic, industrial and human activity. This created a rare natural experiment: the opportunity to isolate and measure the short-term effect of reduced human activity on air quality and whether intentional lockdown policies will have a positive effect in controling greenhouse gas emmissions.
+COVID-19 pandemic prompted an unprecedented societal response. On March 19, 2020, California became the first U.S. state to issue a mandatory stay-at-home order, signifucantly reducing traffic, industrial and human activity. This created a rare natural experiment; the opportunity to isolate and measure the short-term effect of reduced human activity on air quality and whether lockdown policies will have a positive effect in controling greenhouse gas emmissions.
 
-This project explores how California's lockdown affected concentrations of five key air pollutants — **CO, NO₂, O₃, PM₂.₅, and PM₁₀** — using 2019 as a pre-pandemic baseline for year-over-year comparison.
+This project explores how California's lockdown affected concentrations of five key air pollutants: **CO, NO₂, O₃, PM₂.₅, and PM₁₀** — using 2019 as a pre-pandemic baseline for year-over-year comparison.
 
 
 ## **Data**
@@ -17,7 +17,7 @@ The data used in this analysis is as follows:
 1. [Outdoor Ari Quality Data - U.S. Environmental Protection Agency](https://www.epa.gov/outdoor-air-quality-data/download-daily-data)
 2. [California state COVID-19 cases/deaths/tests - California Open Data](https://data.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state1)
 
-Complete data dictionary can be found at 'data' folder in this reposiroty.
+Complete data dictionary can be found in 'data' folder in this reposiroty.
 
 
 ### Tech Stack
@@ -34,7 +34,7 @@ Complete data dictionary can be found at 'data' folder in this reposiroty.
 
 ### Analytical Approach
 
-**Year-over-year comparison**: 2019 served as the baseline representing normal seasonal patterns; 2020 is the treatment year. This controls for seasonality without requiring a formal regression model, making findings interpretable and reproducible.
+**Year-over-year comparison**: 2019 served as the baseline representing normal seasonal patterns. 2020 is the treatment year. This controls for seasonality without requiring a regression model.
 
 The analysis proceeded in three phases:
 
@@ -44,11 +44,11 @@ The analysis proceeded in three phases:
 
 **Phase 2 — Results and Exploratory Data Analysis**
 
-Monthly mean concentrations were calculated for each pollutant. The lockdown period (March 19 – June 30, 2020) was defined as the comparison window. Percentage change relative to 2019 was calculated for each pollutant during this window. 
+Monthly mean concentrations were calculated for each of the five key pollutants. The lockdown period (March 19 – June 30, 2020) was defined as the comparison window. Percentage change relative to 2019 was calculated for each pollutant during this window. 
 
 **Phase 3 — Discussion and Limitations**
 
-Primary traffic-related pollutants (NO₂, CO) were expected to respond readily to lockdown. PM.25 and PM10 results were examined separately due to their unusual rise late 2020.
+Primary traffic related pollutants (NO₂, CO) were expected to respond readily to lockdown. PM.25 and PM10 results were examined separately due to their unusual rise late 2020.
 
 
 ## Results
